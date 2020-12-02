@@ -413,3 +413,18 @@ header{
 .arrow-left{
     text-align:right;
 }
+
+.footer {
+    height: 500px;
+    justify-content: center;
+    background-color: #ebb024;
+}
+
+.footer-section{
+    /* align-self:center; */
+}
+
+.footer-section h4{
+    text-align: left;
+    padding-top: 20px;
+}
