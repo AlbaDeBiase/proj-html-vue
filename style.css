@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    position:relative;
+
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding:15px 0;
+}
+
+.header-left{
+    /* background-color: lightblue; */
+    /* float: left; */
+}
+
+.logo{
+    width: 150px;
+}
+
+.header-right{
+    /* background-color: pink; */
+    /* float: left; */
+}
+
+.header-right li{
+    list-style-type: none;
+    display:inline;
+    font-size: 14px;
+}
+
+.fa-linkedin:before {
+    content: "\f08c";
+    margin-left: 15px;
+}
+
+.fab {
+    margin:2px;
+}
+
+.header-right li a{
+    margin:5px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-right li a:hover {
+    padding-bottom:3px;
+    border-bottom:2px solid #ebb024;
+}
+
+.first {
+    /* background-color: red; */
+    /* width: 100%; */
+    height: 600px;
+    background-image: url("img/slide-1.jpg");
+    background-size: cover;
+    background-position: center;
+    /* position:relative; */
+}
+
+.jumbo {
+    align-self: center;
+}
+
+.title-jumbo {
+    font-size: 40px;
+    font-weight: bold;
+    width: 80%;
+    color:#252525;
+}
+
+.p-jumbo{
+    font-size: 15px;
+    width: 80%;
+    color:#6b6b6b;
+
+}
+
+.counter{
+    width: 68%;
+    background-color: #ebb024;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 16%;
+    margin: -75px 0 0 -34%;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.sales{
+    align-self:center;
+}
+
+.sales h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom:12px;
+
+}
+
+#app{
+    align-self:center;
+}
+.second {
+    /* background-color: red; */
+    height: 500px;
+    justify-content:center;
+}
+
+.signature {
+    align-self:center;
+
+}
+
+.signature h2 {
+    font-weight: bold;
+    font-size:30px;
+    padding-bottom: 26px;
+    width: 61%;
+    color:#252525;
+}
+
+.presentation{
+    align-self:flex-start;
+ }
+
+.presentation p {
+    padding-top:110px;
+    color:#6b6b6b;
+}
+
+.button-counter {
+    background-color: #0d2229;
+    color: white;
+    border-radius: 19px;
+    padding: 13px 20px;
+    font-size: 12px;
+    border: none;
+}
+ .search-counter {
+    padding: 8px;
+    border: none;
+    border-radius: 19px;
+    width: 64%;
+ }
+
+ .form-counter {
+    background-color: white;
+    border-radius: 19px;
+    width: 70%;
+    padding-left: 20px;
+    margin-left: 20px;
+ }
+
+ .numbers{
+     align-self:center;
+ }
+
+ .numbers span{
+     color:white;
+     font-size:50px;
+     font-weight: bold;
+     padding:10px 10px;
+
+
+ }
+
+ .new-courses {
+     background-color: pink;
+
+     justify-content: center;
+     align-items:center;
+     background-color: #e4e7e7;
+ }
+.title-new-courses {
+    background-color: #e4e7e7;
+}
+#title-section-courses {
+    text-align:center;
+    padding:25px 0px;
+    color:#373839;
+    font-weight: bold;
+ }
+
+ .photo-courses{
+    background-color:white;
+    height: 400px;
+    max-width: 88%;
+    border: 1px solid #bcbcbc;
+    margin-bottom:20px;
+ }
+
+ .photo-courses p,h3{
+     text-align:center;
+ }
+
+ .description{
+    font-size:19px;
+    font-weight: bold;
+    padding:10px;
+    color:#373839;
+ }
+
+ .genre {
+     font-size:16px;
+     opacity:0.5;
+     padding-bottom:20px;
+     border-bottom:1px solid #6b6b6b;
+ }
+ .data {
+    padding:6px;
+ }
+
+.photo-courses span i {
+    padding:5px;
+    color:#ebb024;
+    font-size: 10px;
+
+}
+.photo-courses span {
+    font-size: 12px;
+
+}
+
+.photo-courses img{
+    width: 100%;
+    padding-bottom:10px;
+}
+
+
+.button-load {
+    background-color: #ebb024;
+    color: white;
+    border-radius: 19px;
+    padding: 13px 20px;
+    font-size: 12px;
+    border: none;
+}
+
+ .section-button-load {
+    background-color: #e4e7e7;
+    padding-bottom:30px;
+ }
+
+ .section-amazon {
+    height: 500px;
+    background-image: url("img/libri.jpg");
+    justify-content:center;
+ }
+
+#titolo-exclusive-offer{
+    text-align:center;
+    color:#ebb024;
+    font-weight: bold;
+    font-size:32px;
+    padding-bottom:10px;
+}
+
+#quote {
+    font-family: cursive;
+    color:white;
+    text-align:center;
+    font-size:20px;
+}
+
+.description-amazon {
+    align-self:center;
+}
+
+.description-amazon img{
+    width:200px;
+}
+
+#book{
+    width: 483px;
+    padding-top:25px;
+}
+
+#title-section-why{
+    text-align:center;
+    padding: 38px 0px;
+    font-weight: bold;
+}
+.section-why {
+    height: 300px;
+}
+
+.card-why-icon{
+    margin-bottom: 20px;
+    /* align-self: center; */
+    margin-bottom: 20px;
+    border-left: 6px solid #ebb024;
+    box-shadow: 0px 8px #e4e7e7a6;
+
+}
+.card-why-text{
+    /* align-self:flex-end; */
+    margin-bottom: 20px;
+    box-shadow: 4px 8px #e4e7e7a6;
+    margin-right: 20px;
+
+}
+.section-why i{
+    font-size: 50px;
+    color: #ebb024;
+}
+/* .card-border {
+    border-right: 6px solid #ebb024;
+    margin-bottom: 20px;
+} */
+
+.section-why h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-why p{
+    font-size: 15px;
+    color: #6b6b6b;
+    opacity:0.6;
+}
+
+.reactions{
+    height: 450px;
+    background-image: url("img/people.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.like{
+    align-self: center;
+}
+.like-right i{
+    color:white;
+    font-size: 40px;
+}
+
+.like-right{
+    align-self: center;
+    text-align:right;
+    color:white;
+}
+
+.like span {
+    color: #ebb024;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.like p{
+    color: white;
+    font-size: 12px;
+}

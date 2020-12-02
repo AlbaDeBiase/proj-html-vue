@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>proj-html-vuejs</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" charset="utf-8"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <div class="header-left">
+                    <img class="logo" src="img/logo-colored.png" alt="logo">
+                </div>
+                <div class="header-right">
+                    <ul>
+                        <li>
+                            <a href="#">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#">Course Formats</a>
+                        </li>
+                        <li>
+                            <a href="#">Add Course</a>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                        </li>
+                        <li>
+                             <a href="#">Demos</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-facebook"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter"></i>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <!-- fine header  -->
+            <!-- section-counter -->
+            <div class="row third counter">
+                <div class="col-md-6 sales">
+                    <h2><font color="white">Limited Sale: </font> All courses with 55% off</h2>
+                    <form class="form-counter" action="index.html" method="post">
+                        <input type="search" class="search-counter " name="" value="" placeholder="Enter your E-mail">
+                        <button type="button" class="button-counter">SUBSCRIBE</button>
+                    </form>
+                </div>
+                <div class="col-md-6 numbers">
+                      <span>26</span>
+                      <span>01</span>
+                      <span>47</span>
+                      <span>0</span>
+                </div>
+            </div>
+            <!-- fine-section-counter -->
+            <!-- inizio main sezione jumbo -->
+                    <div class="row first">
+                        <div class="col-md-1">
+                        </div>
+                        <div class="col-md-5">
+                        </div>
+                        <div class="col-md-5 jumbo">
+                            <h1 class="title-jumbo">Start your Human <font color="#ebb024">Revolution</font> today</h1>
+                            <p class="p-jumbo">A wonderful serenity has taken possession of my entire soul,like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                    </div>
+                    <!-- <div class="row third counter">
+                        <div class="col-md-6 sales">
+                            <h2><font color="white">Limited Sale: </font> All courses with 55% off</h2>
+                            <form class="form-counter" action="index.html" method="post">
+                                <input type="search" class="search-counter " name="" value="" placeholder="Enter your E-mail">
+                                <button type="button" class="button-counter">SUBSCRIBE</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6" id="app">
+                              <counter></counter>
+                              <counter></counter>
+                              <counter></counter>
+                        </div>
+                    </div> -->
+                    <div class="row second">
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-4 signature">
+                            <h2>Hey there, my name is John Doe. I'm the founder of the Brain Academy.</h2>
+                            <img src="img/sign.jpg" alt="sign">
+                        </div>
+                        <div class="col-md-4 presentation">
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet morinings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the lovely valley teems with vapour around me, and the meridian sun strikes the upper</p>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                    </div>
+                    <div class="row title-new-courses">
+                        <div class="offset-md-4 col-md-4">
+                            <h1 id="title-section-courses">New Courses</h1>
+                        </div>
+                    </div>
+                    <div class="row new-courses">
+                        <div class="offset-md-1 col-md-3">
+                            <div class="photo-courses">
+                                <img src="img/photo-1.jpeg" alt="">
+                                <h3 class="description">Have to be a DJ? Make Electronic Music</h3>
+                                <p class="genre">Electronic</p>
+                                <span class="data"><i class="fas fa-grip-lines-vertical"></i>Advanced</span>
+                                <span><i class="fas fa-list-ul"></i>8 Lectures</span>
+                                <span><i class="far fa-clock"></i>6 hours</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="photo-courses">
+                                <img src="img/photo-2.png" alt="">
+                                <h3 class="description">Nvidia and UE4 Technologies Practice</h3>
+                                <p class="genre">Nvidia</p>
+                                <span class="data"><i class="fas fa-grip-lines-vertical"></i>Advanced</span>
+                                <span><i class="fas fa-list-ul"></i>8 Lectures</span>
+                                <span><i class="far fa-clock"></i>6 hours</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="photo-courses">
+                                <img src="img/photo-3.jpeg" alt="">
+                                <h3 class="description">Fashion Photography from professional</h3>
+                                <p class="genre">Fashion</p>
+                                <span class="data"><i class="fas fa-grip-lines-vertical"></i>Advanced</span>
+                                <span><i class="fas fa-list-ul"></i>8 Lectures</span>
+                                <span><i class="far fa-clock"></i>6 hours</span>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                    </div>
+                    <div class="row new-courses">
+                        <div class="offset-md-1 col-md-3 ">
+                            <div class="photo-courses">
+                                <img src="img/photo-4.jpeg" alt="">
+                                <h3 class="description">Design Instruments for Communication</h3>
+                                <p class="genre">Communication</p>
+                                <span class="data"><i class="fas fa-grip-lines-vertical"></i>Advanced</span>
+                                <span><i class="fas fa-list-ul"></i>8 Lectures</span>
+                                <span><i class="far fa-clock"></i>6 hours</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="photo-courses">
+                                <img src="img/photo-5.jpg" alt="">
+                                <h3 class="description">Make your Concept Right and Beautiful</h3>
+                                <p class="genre">Art</p>
+                                <span class="data"><i class="fas fa-grip-lines-vertical"></i>Advanced</span>
+                                <span><i class="fas fa-list-ul"></i>8 Lectures</span>
+                                <span><i class="far fa-clock"></i>6 hours</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="photo-courses">
+                                <img src="img/photo-6.jpeg" alt="">
+                                <h3 class="description">Road Bike Manual or How to Be a Champion</h3>
+                                <p class="genre">Bicycling</p>
+                                <span class="data"><i class="fas fa-grip-lines-vertical"></i>Advanced</span>
+                                <span><i class="fas fa-list-ul"></i>8 Lectures</span>
+                                <span><i class="far fa-clock"></i>6 hours</span>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                    </div>
+                <!-- SECTION BUTTON -->
+                <div class="row section-button-load">
+                    <div class="offset-md-5 col-md-2">
+                        <button class="button-load" type="button" name="button">LOAD MORE</button>
+                    </div>
+                </div>
+<!-- chiusura section-button -->
+<!-- inizio section amazon -->
+
+                    <div class="row section-amazon">
+                        <div class="offset-md-2 col-md-4 description-amazon">
+                            <h2 id="titolo-exclusive-offer">Get My Exclusive Investing Book just for $19.50</h2>
+                            <p id="quote">Vestibulum imentum eu urna vel cursus. Aenan vehicula quam quam, vitae pellentesque urna elementum cursus.</p>
+                            <img src="img/amazon.png" alt="amazon">
+                        </div>
+                        <div class="col-md-4">
+                            <img id="book" src="img/book.png" alt="book">
+                        </div>
+                        <div class="offset-md-2">
+                        </div>
+                    </div>
+<!-- fine sezione-amazon -->
+                        <div class="offset-md-4 col-md-4">
+                            <h1 id="title-section-why">Why my courses?</h1>
+                        </div>
+                    <div class="row top section-why">
+                        <div class="col-md-2 card-border">
+                        </div>
+                        <div class="col-md-1 card-why-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="col-md-3 card-why-text ">
+                                <h4>Enterpreneurship</h4>
+                                <p>Vestibulum vitae aliquam nunc. Suspendisse mollis metus ac tellus egestas pharetra.Suspendisse at viverra purus. Pellentesque nec posuereligua, eu congue leo. Integer vulputate tempor arcu. Vestibulum vulputate</p>
+                        </div>
+                        <div class="col-md-1 card-why-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="col-md-3 card-why-text">
+                            <h4>Enterpreneurship</h4>
+                            <p>Vestibulum vitae aliquam nunc. Suspendisse mollis metus ac tellus egestas pharetra.Suspendisse at viverra purus. Pellentesque nec posuereligua, eu congue leo. Integer vulputate tempor arcu. Vestibulum vulputate</p>
+
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                    </div>
+                    <div class="row top section-why">
+                        <div class="col-md-2 card-border">
+                        </div>
+                        <div class="col-md-1 card-why-icon">
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div class="col-md-3 card-why-text ">
+                                <h4>Enterpreneurship</h4>
+                                <p>Vestibulum vitae aliquam nunc. Suspendisse mollis metus ac tellus egestas pharetra.Suspendisse at viverra purus. Pellentesque nec posuereligua, eu congue leo. Integer vulputate tempor arcu. Vestibulum vulputate</p>
+                        </div>
+                        <div class="col-md-1 card-why-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="col-md-3 card-why-text">
+                            <h4>Enterpreneurship</h4>
+                            <p>Vestibulum vitae aliquam nunc. Suspendisse mollis metus ac tellus egestas pharetra.Suspendisse at viverra purus. Pellentesque nec posuereligua, eu congue leo. Integer vulputate tempor arcu. Vestibulum vulputate</p>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                    </div>
+                    <!-- fine sezione corsi -->
+                    <div class="row reactions">
+                        <div class="col-md-2">
+
+                        </div>
+                        <div class="col-md-1 like-right">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="col-md-1 like">
+                            <span>3195</span>
+                            <p>Online Lerner</p>
+                        </div>
+                        <div class="col-md-1 like-right">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="col-md-1 like">
+                            <span>23</span>
+                            <p>Video Courses</p>
+                        </div>
+                        <div class="col-md-1 like-right">
+                            <i class="fas fa-photo-video"></i>
+                        </div>
+                        <div class="col-md-1 like">
+                            <span>437</span>
+                            <p>Sliders & Images</p>
+                        </div>
+                        <div class="col-md-1 like-right">
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div class="col-md-1 like">
+                            <span>1440</span>
+                            <p>Excellent Reviews</p>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                    </div>
+                    <!-- fine sezione reactions -->
+
+
+
+
+
+
+
+
+
+
+
+        </div> <!--chiusura container -->
+
+
+
+    <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>
