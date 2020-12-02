@@ -366,3 +366,50 @@ header{
     color: white;
     font-size: 12px;
 }
+
+.students {
+    height: 600px;
+    justify-content: center;
+}
+.circle, .circle-little {
+    border-radius: 100%;
+}
+
+.circle-little {
+    width: 70px;
+    margin: 10px;
+}
+
+.slider {
+    align-self:center;
+    text-align: center;
+}
+
+.slider h2{
+    font-weight: bold;
+    font-size:30px;
+    padding-bottom: 20px;
+}
+
+.slider p{
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.slider i{
+    color: #ebb024;
+}
+
+.slider p:last-child {
+    color: #6b6b6b;
+    font-weight: normal;
+    font-size:13px;
+}
+
+.arrow-left, .arrow-right{
+    align-self:center;
+}
+
+.arrow-left{
+    text-align:right;
+}
