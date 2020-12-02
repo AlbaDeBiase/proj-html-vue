@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-#container{
-    position:relative;
+#wrap{
+
 
 }
 
@@ -67,7 +67,7 @@ header{
     background-image: url("img/slide-1.jpg");
     background-size: cover;
     background-position: center;
-    /* position:relative; */
+    position:relative;
 }
 
 .jumbo {
@@ -94,7 +94,7 @@ header{
     height: 150px;
     position: absolute;
     left: 50%;
-    top: 13%;
+    top:95%;
     margin: -75px 0 0 -34%;
     justify-content: center;
     border-radius: 5px;
@@ -415,7 +415,6 @@ header{
 }
 
 .footer {
-    height: 500px;
     justify-content: center;
     background-color: #ebb024;
 }
@@ -427,4 +426,35 @@ header{
 .footer-section h4{
     text-align: left;
     padding-top: 20px;
+    color:#373839;
+    font-weight: bold;
+}
+
+.description-photo-link{
+    font-size:10px;
+    margin-bottom:0px;
+}
+
+.data-link{
+    font-size:10px;
+    margin-bottom:0px;
+}
+
+
+
+.contact-p{
+    font-size:14px;
+    color:#4d5156;
+}
+
+.footer-section ul li{
+    color:#4d5156;
+    font-size:14px;
+    font-family: cursive;
+}
+
+.footer-section i{
+    color:#373839;
+    padding:5px;
+
 }

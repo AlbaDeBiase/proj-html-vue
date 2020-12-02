@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="container">
+        <div  id="wrap">
             <header>
                 <div class="header-left">
                     <img class="logo" src="img/logo-colored.png" alt="logo">
@@ -35,24 +35,8 @@
                 </div>
             </header>
             <!-- fine header  -->
-            <!-- section-counter -->
-            <div class="row third counter">
-                <div class="col-md-6 sales">
-                    <h2><font color="white">Limited Sale: </font> All courses with 55% off</h2>
-                    <form class="form-counter" action="index.html" method="post">
-                        <input type="search" class="search-counter " name="" value="" placeholder="Enter your E-mail">
-                        <button type="button" class="button-counter">SUBSCRIBE</button>
-                    </form>
-                </div>
-                <div class="col-md-6 numbers">
-                      <span>26</span>
-                      <span>01</span>
-                      <span>47</span>
-                      <span>0</span>
-                </div>
-            </div>
-            <!-- fine-section-counter -->
             <!-- inizio main sezione jumbo -->
+            <div class=".container-fluid">
                     <div class="row first">
                         <div class="col-md-1">
                         </div>
@@ -64,21 +48,23 @@
                         </div>
                         <div class="col-md-1">
                         </div>
+                        <div class="row third counter">
+                            <div class="col-md-6 sales">
+                                <h2><font color="white">Limited Sale: </font> All courses with 55% off</h2>
+                                <form class="form-counter" action="index.html" method="post">
+                                    <input type="search" class="search-counter " name="" value="" placeholder="Enter your E-mail">
+                                    <button type="button" class="button-counter">SUBSCRIBE</button>
+                                </form>
+                            </div>
+                            <div class="col-md-6 numbers">
+                                  <span>26</span>
+                                  <span>01</span>
+                                  <span>47</span>
+                                  <span>0</span>
+                            </div>
+                        </div>
                     </div>
-                    <!-- <div class="row third counter">
-                        <div class="col-md-6 sales">
-                            <h2><font color="white">Limited Sale: </font> All courses with 55% off</h2>
-                            <form class="form-counter" action="index.html" method="post">
-                                <input type="search" class="search-counter " name="" value="" placeholder="Enter your E-mail">
-                                <button type="button" class="button-counter">SUBSCRIBE</button>
-                            </form>
-                        </div>
-                        <div class="col-md-6" id="app">
-                              <counter></counter>
-                              <counter></counter>
-                              <counter></counter>
-                        </div>
-                    </div> -->
+                    <!-- inizio sezione signature -->
                     <div class="row second">
                         <div class="col-md-2">
                         </div>
@@ -96,6 +82,7 @@
                         <div class="offset-md-4 col-md-4">
                             <h1 id="title-section-courses">New Courses</h1>
                         </div>
+                    <!-- inizio sezione new-courses -->
                     </div>
                     <div class="row new-courses">
                         <div class="offset-md-1 col-md-3">
@@ -173,7 +160,6 @@
                 </div>
 <!-- chiusura section-button -->
 <!-- inizio section amazon -->
-
                     <div class="row section-amazon">
                         <div class="offset-md-2 col-md-4 description-amazon">
                             <h2 id="titolo-exclusive-offer">Get My Exclusive Investing Book just for $19.50</h2>
@@ -187,6 +173,7 @@
                         </div>
                     </div>
 <!-- fine sezione-amazon -->
+<!-- inizio sezione why courses -->
                         <div class="offset-md-4 col-md-4">
                             <h1 id="title-section-why">Why my courses?</h1>
                         </div>
@@ -231,7 +218,8 @@
                         <div class="col-md-2">
                         </div>
                     </div>
-                    <!-- fine sezione corsi -->
+                    <!-- fine sezione couses -->
+                    <!-- inizio sezionereactions -->
                     <div class="row reactions">
                         <div class="col-md-2">
 
@@ -268,6 +256,7 @@
                         </div>
                     </div>
                     <!-- fine sezione reactions -->
+                    <!-- inizio sezione students -->
                 <div class="row students">
                     <div class="col-md-4 arrow-left">
                         <i class="fas fa-arrow-left"></i>
@@ -289,58 +278,52 @@
                         <i class="fas fa-arrow-right"></i>
                     </div>
                 </div>
-                <!-- fine sezione slider -->
-
+                <!-- fine sezione students -->
+                <!-- inizio footer -->
+                <div class=".container-fluid">
                     <div class="row footer">
                         <div class="col-md-2">
 
                         </div>
-                        <div class="col-md-2 footer-section" v-for="title in menu">
-                            <h4 class="title-footer">{{title}}</h4>
-                            <!-- <h4 v-for="title in menu"class="title-footer">{{title}}</h4> -->
-                        </div>
-                        <!-- <div class="col-md-2 footer-section">
-                            <h4 class="title-footer">{{title}}</h4> -->
-                            <!-- <h4 v-for="title in menu"class="title-footer">{{title}}</h4>
+                        <div class="col-md-2 footer-section">
+                            <h4 class="title-footer">ABOUT</h4>
+                            <p class="contact-p">
+                                <a class="contact-p" href="#">Masterstudy</a>
+                                is Education Wordpress theme featured by Learning Management System (LMS) for online education. Developed by
+                                <a class="contact-p" href="#">SystemixThemes.</a>
+                            </p>
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-instagram"></i>
                         </div>
                         <div class="col-md-2 footer-section">
-                            <h4 class="title-footer">{{title}}</h4>
+                            <h4 class="title-footer">CONTACT</h4>
+                            <p class="contact-p">USA, California 20, First Avenue, California</p>
+                            <p class="contact-p">Tel.: +1212 458 300 32 <br>
+                            Fax: +1 212 375 24 12</p>
+                            <a class="contact-p"href="#">info@masterstudy.com</a>
+                        </div>
+                        <div class="col-md-2 footer-section">
+                            <h4 class="title-footer">PAGES</h4>
                             <ul>
                                 <li v-for="page in pages">{{page}}</li>
                             </ul>
                         </div>
                         <div class="col-md-2 footer-section">
-                            <h4 class="title-footer">{{title}}</h4>
-                            <!-- <h4 v-for="title in menu"class="title-footer">{{title}}</h4> -->
-                        <!-- </div>
-                        <div class="col-md-2 footer-section"> -->
+                            <h4 class="title-footer">BLOG</h4>
+                            <img src="img/footer-1.jpeg" alt="">
+                            <span class="description-photo-link">Our main target is to "Developing Yourself as a Leader"</span>
+                            <span class="data-link">-August 9, 2018</span><br>
+                            <img src="img/footer-2.jpeg" alt="">
+                            <span class="description-photo-link">Those Other College Expenses You Aren't Thinking About</span>
+                            <span class="data-link">-June3, 2015</span>
+                        </div>
+                        <div class="col-md-2 footer-section">
 
-                            <!-- <h4 v-for="title in menu"class="title-footer">{{title}}</h4> -->
-                        <!-- </div> -->
+                        </div>
                     </div>
-
-                        <!-- <div class="col-md-2 footer-section">
-                            <h4 class="title-footer">{{title}}</h4>
-                        </div>
-                        <div class="col-md-2 footer-section">
-                            <h4 class="title-footer">pages</h4>
-                            <ul>
-                                <li v-for="page in pages">{{page}}</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-2 footer-section">
-                            <h4 class="title-footer">blog</h4>
-                        </div>
-                        <div class="col-md-2 footer-section">
-
-                        </div>
-                    </div> -->
-
-
-
-
-
-
+                </div>
+            </div>
 
 
 
