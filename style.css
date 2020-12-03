@@ -10,7 +10,8 @@
 }
 
 body{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+
 
 }
 
@@ -69,6 +70,31 @@ header{
     background-size: cover;
     background-position: center;
     position:relative;
+}
+
+.right-fixed-bar{
+    width:60px;
+    position:fixed;
+    top:370px;
+    right:15px;
+    z-index:0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    filter: drop-shadow(8px 8px 10px gray);
+
+}
+
+.right-fixed-bar i{
+    font-size:25px;
+    color:#252525;
+    padding:10px 0px;
+
+}
+
+.right-fixed-bar i:hover{
+    color:blue;
 }
 
 .jumbo {
