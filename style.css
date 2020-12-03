@@ -18,7 +18,7 @@ body{
 header{
     display: flex;
     justify-content: space-around;
-    padding:15px 0;
+    padding:25px 0;
 }
 
 .header-left{
@@ -27,18 +27,19 @@ header{
 }
 
 .logo{
-    width: 150px;
+    width: 200px;
 }
 
 .header-right{
     position:relative;
 }
+
 .new{
     background-color: #dc1245;
     color: white;
     position: absolute;
-    top: -21%;
-    left: 50%;
+    top: -5%;
+    left: 49%;
     width: 31px;
     height: 15px;
     font-size: 8px;
@@ -49,16 +50,15 @@ header{
 .header-right li{
     list-style-type: none;
     display:inline;
-    font-size: 15px;
+    font-size: 16px;
 }
 
-.fa-linkedin:before {
-    content: "\f08c";
-    margin-left: 15px;
-}
 
-.fab {
-    margin:2px;
+
+.header-right li i {
+    margin:10px;
+    font-size: 18px;
+
 }
 
 .header-right li a{
@@ -68,14 +68,20 @@ header{
     font-weight: bold;
 }
 
+.header-right li a:hover{
+    color:#ebb024;
+}
+
 .header-right li a:hover {
     padding-bottom:3px;
     border-bottom:2px solid #ebb024;
 }
 
+.header-right li i:hover{
+    color:#ebb024;
+}
+
 .first {
-    /* background-color: red; */
-    /* width: 100%; */
     height: 600px;
     background-image: url("img/slide-1.jpg");
     background-size: cover;
