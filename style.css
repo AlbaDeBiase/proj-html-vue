@@ -439,15 +439,16 @@ margin: -24% 0 0 -25%;
 
 .card-display:hover {
     background-color: #ebb024;
+    color:black;
 }
 
 .card-display i:hover{
     color: white;
 }
 
-.card-display p:hover{
+/* .card-display p:hover{
     color:black;
-}
+} */
 
 .icon-why{
         padding-top: 20px;
@@ -601,6 +602,10 @@ margin: -24% 0 0 -25%;
     color:#4d5156;
     font-size:14px;
     font-family: cursive;
+}
+
+.page:hover{
+    color:white;
 }
 
 .footer-section i{
