@@ -31,14 +31,25 @@ header{
 }
 
 .header-right{
-    /* background-color: pink; */
-    /* float: left; */
+    position:relative;
+}
+.new{
+    background-color: #dc1245;
+    color: white;
+    position: absolute;
+    top: -21%;
+    left: 50%;
+    width: 31px;
+    height: 15px;
+    font-size: 8px;
+    border: none;
+    border-radius: 10%;
 }
 
 .header-right li{
     list-style-type: none;
     display:inline;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .fa-linkedin:before {
@@ -51,7 +62,7 @@ header{
 }
 
 .header-right li a{
-    margin:5px;
+    margin:15px;
     color:black;
     text-decoration: none;
     font-weight: bold;
@@ -88,8 +99,9 @@ header{
 
 .right-fixed-bar i{
     font-size:25px;
-    color:#252525;
+    color:#222;
     padding:10px 0px;
+    opacity:0.8;
 
 }
 
@@ -171,10 +183,10 @@ header{
 }
 
 .button-counter {
-    background-color: #0d2229;
+    background-color: #2d4649;
     color: white;
     border-radius: 19px;
-    padding: 13px 25px;
+    padding: 13px 27px;
     font-size: 12px;
     border: none;
 }
