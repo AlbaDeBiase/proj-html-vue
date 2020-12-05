@@ -24,8 +24,9 @@
                     <button class="new"type="button" name="button">NEW</button>
                     <ul>
                         <li>
-                            <a v-for="item in header"href="#">{{item}}</a>
+                            <a v-for="(item,indice) in header" :href="item.link">{{item.name}}</a>
                         </li>
+
                         <li>
                             <i class="fab fa-linkedin"></i>
                         </li>
@@ -43,7 +44,7 @@
             </header>
             <!-- fine header  -->
             <!-- inizio main sezione jumbo -->
-            <div class=".container-fluid">
+            <div class="container-fluid">
                     <div class="row first">
                         <div class="col-md-1">
                         </div>
@@ -96,7 +97,7 @@
                 </a>
             </div>
                     <!-- inizio sezione signature -->
-                <div class=".container-fluid">
+                <div class="container-fluid">
                     <div class="row second">
                         <div class="col-md-2">
                         </div>
@@ -112,14 +113,14 @@
                     </div>
                 </div>
                 <!-- inizio sezione new-courses -->
-                <div class=".container-fluid">
+                <div class="container-fluid">
                     <div class="row title-new-courses">
                         <div class="offset-md-4 col-md-4">
                             <h1 id="title-section-courses">New Courses</h1>
                         </div>
                     </div>
                 </div>
-                <div class=".container-fluid">
+                <div class="container-fluid">
                     <div class="row new-courses">
                         <div class="offset-md-1 col-md-3">
                             <div class="photo-courses">
@@ -234,7 +235,7 @@
                     </div>
                 </div>
                 <!-- SECTION BUTTON -->
-                <div class=".container-fluid">
+                <div class="container-fluid">
                     <div class="row section-button-load">
                         <div class="offset-md-5 col-md-2">
                             <button class="button-load" type="button" name="button">LOAD MORE</button>
@@ -243,7 +244,7 @@
                 </div>
 <!-- chiusura section-button -->
 <!-- inizio section amazon -->
-                <div class=".container-fluid">
+                <div class="container-fluid">
                     <div class="row section-amazon">
                         <div class="offset-md-2 col-md-4 description-amazon">
                             <h2 id="titolo-exclusive-offer">Get My Exclusive Investing Book just for $19.50</h2>
@@ -260,7 +261,7 @@
                 </div>
 <!-- fine sezione-amazon -->
 <!-- inizio sezione why courses -->
-                    <div class=".container-fluid">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="offset-md-4 col-md-4">
                                 <h1 id="title-section-why">Why my courses?</h1>
@@ -364,7 +365,7 @@
                 </div>
                     <!-- fine sezione reactions -->
                     <!-- inizio sezione students -->
-                <div class=".container-fluid">
+                <div class="container-fluid">
                     <div class="row students">
                         <div class="col-md-4 arrow-left">
                             <i class="fas fa-arrow-left"></i>
@@ -385,7 +386,7 @@
             </div>
                 <!-- fine sezione students -->
                 <!-- inizio footer -->
-                <div class=".container-fluid">
+                <div class="container-fluid">
                     <div class="row footer">
                         <div class="col-md-2">
 
